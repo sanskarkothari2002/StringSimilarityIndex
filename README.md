@@ -6,4 +6,4 @@ You will also need to install the following Python packages:
 1) Numpy
 2) collections
 
-You can install these packages using pip, the Python
+You can install these packages using pip.
