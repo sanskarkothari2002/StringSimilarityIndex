@@ -4,5 +4,6 @@ This project aims to calculate the similarity between two strings using the Dice
 
 You will also need to install the following Python packages:
 1) Numpy
-collections
+2) collections
+
 You can install these packages using pip, the Python package installer.
