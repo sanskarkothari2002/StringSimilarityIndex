@@ -93,7 +93,6 @@ class DiceCoefficient(consecutiveK):
 a = DiceCoefficient(2)
 
 
-
 n1 = input();
 n2 =input();
 distance = levenshteinDistanceDP(n1, n2)
