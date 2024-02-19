@@ -100,10 +100,6 @@ distance = levenshteinDistanceDP(n1, n2)
 sim=1-(distance/max(len(n1),len(n2)))
 print("similarity between " + n1 + " and " + n2 + " is ",sim)
 
-n11 = input();
-n22 = input();
-# print("Dice Coeff: {}".format(a.similarity("125 SW 39TH ST, Suite 10", "Suite 10, 125 SW 39TH ST")))
-# print("Dice Coeff: {}".format(a.similarity("上海", "上海市")))
-print("similarity index: {}".format(a.similarity(n11,n22)))
 
-
+print("Dice Coeff: {}".format(a.similarity("125 SW 39TH ST, Suite 10", "Suite 10, 125 SW 39TH ST")))
+print("Dice Coeff: {}".format(a.similarity("上海", "上海市")))
